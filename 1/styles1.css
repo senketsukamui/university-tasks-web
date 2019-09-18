@@ -1,0 +1,33 @@
+﻿.all {
+	padding: 0px 10px;
+}
+
+.Header1 {
+	color: red;
+	border-bottom: 2px solid black;
+}
+
+.special-symbols-text {
+	color: white;
+	background-color: black;
+}
+
+.h-levels-title, .p-div-title, .pre-title, .font-text, .span-text, .symbols {
+	border-bottom: 2px dotted;
+	padding-bottom: 0;
+}
+
+/* .h-example {
+} */
+
+.h-example {
+	 background-color: #cfcfcf;
+	 border: 1px solid green;
+	 margin: 0px 40px;
+}
+
+.mini-text {
+	color: red;
+	background-color: yellow;
+	border: 1px solid green;
+}
