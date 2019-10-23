@@ -1,0 +1,12 @@
+.tic-tac-toe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.tic-tac-toe>input {
+    height: 300px;
+    width: 300px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
