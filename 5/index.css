@@ -1,12 +1,30 @@
+.game-title {
+    font-family: 'TicTacToe';
+    font-size: 6rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .tic-tac-toe {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 750px;
+    background-color: black;
+    margin: 5% auto;
 }
 
 .tic-tac-toe>input {
-    height: 300px;
-    width: 300px;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
+    height: 250px;
+    width: 250px;
+    background-color:black;
+    color: white;
+    font-size: 12rem;
+    font-family: 'TicTacToe';
+    /* margin-right: 1rem;
+    margin-bottom: 2rem; */
+}
+
+.tic-tac-toe>input:hover {
+    /* border: 3px solid black; */
 }
