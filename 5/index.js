@@ -81,10 +81,11 @@ const boardCheck = (boardState, symbol) => {
 }
 const reloadGame = (symbol) => {
     isEnded = true;
-    if symbol == "X"{
-        setTimeout(() => (alert("X won!"), window.location.reload()), 30);
-    } else{
-        setTimeout(() => (alert("O won!"), window.location.reload()), 30);
+    const alertMessage = `${symbol} won!`
+    setTimeout(() => {
+        alert(alertMessage)
+        window.location.reload()
+    }, 30)
 }
 
 const winnerCheck = () => {
