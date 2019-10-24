@@ -13,8 +13,8 @@ const init = (() => {
 
     document.querySelector(".tic-tac-toe").onclick = (event) => {
         if (event.target.value == "") {
-            turn ? event.target.value = "X" : event.target.value = "O";
-            event.target.disabled = "disabled"; 
+            const nextTurnSign = turn ? "X" : "O"
+            event.target.value = nextTurnSign
             turn = !turn;
 
         }
@@ -81,7 +81,10 @@ const boardCheck = (boardState, symbol) => {
 }
 const reloadGame = (symbol) => {
     isEnded = true;
-    symbol == "X" ? setTimeout(() => (alert("X won!"), window.location.reload()), 30) : setTimeout(() => (alert("O won!"), window.location.reload()), 30);
+    if symbol == "X"{
+        setTimeout(() => (alert("X won!"), window.location.reload()), 30);
+    } else{
+        setTimeout(() => (alert("O won!"), window.location.reload()), 30);
 }
 
 const winnerCheck = () => {
