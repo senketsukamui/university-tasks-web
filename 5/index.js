@@ -96,9 +96,4 @@ const winnerCheck = () => {
         turn = true;
         window.location.reload();
     }
-    // for (let item of boardValues) {
-    //     item.value == ""? {}: isDraw = true;
-
-    //     isDraw && !isEnded? alert("Draw!"): {};
-    // }
 }
