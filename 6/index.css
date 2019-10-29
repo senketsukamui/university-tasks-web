@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  .application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .application .menu {
+    margin-right: 50px;
+  }
+
+  .application .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 625px;
+    width: 625px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .application .wrapper .hoverable {
+    height: 23px;
+    min-width: 23px;
+    max-width: 23px;
+    border: thin solid rgba(0, 0, 0, 0.02);
+  }
+  .menu > .form-group {
+    margin-top: 15px;
+  }
+
+  div.form-group > div {
+    display: flex;
+    align-items: center;
+  }
+
+  div.form-group .radio-example {
+    margin-left: 1rem;
+    height: 25px;
+    min-width: 25px;
+  }
+
+  .red {
+    background: red;
+  }
+
+  .blue {
+    background: blue;
+  }
+
+  .green {
+    background: green;
+  }
